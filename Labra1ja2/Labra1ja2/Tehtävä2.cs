@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Tehtävä2
 {
-    class Program
+    class Teht2
     {
-        static void Main(string[] args)
+        static void Tehtävä2(string[] args)
         {
             int numero;
             Console.WriteLine("Anna pistemäärä ");

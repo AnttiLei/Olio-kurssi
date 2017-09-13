@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Tehtävä8
 {
-    class Program
+    class Teht8
     {
-        static void Main(string[] args)
+        static void Tehtävä8(string[] args)
         {
             //Tee ohjelma, joka kysyy käyttäjältä 3 kokonaislukua ja tulostaa niistä suurimman.
 

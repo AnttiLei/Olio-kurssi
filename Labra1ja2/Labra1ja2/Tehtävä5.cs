@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Tehätävä5
 {
-    class Program
+    class Teht5
     {
         
-        static void Main(string[] args)
+        static void Tehtävä5(string[] args)
         {
                          
             int vastaus;                    

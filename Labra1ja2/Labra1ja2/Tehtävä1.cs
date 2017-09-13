@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Tehtävä1
 {
-    class Program
+    class Teht1
     {
-        static void Main(string[] args)
+        static void Tehtävä1(string[] args)
         {
             int luku;
             Console.WriteLine("Anna luku > ");

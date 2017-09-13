@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Tehtävä9
 {
-    class Program
+    class Teht9
     {
-        static void Main(string[] args)
+        static void Tehtävä9(string[] args)
         {
             string strNum;
             int num;

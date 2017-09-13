@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Tehtävä6
 {
-    class Program
+    class Teht6
     {
-        static void Main(string[] args)
+        static void Tehtävä6(string[] args)
         {
             //Auton kulutus on 7.02 litraa 100 kilometrin matkalla ja bensan hinta on 1.595 Euroa.
             //Tee ohjelma, joka tulostaa ajetulla matkalla (kysytään käyttäjältä) kuluvan bensan määrän sekä bensaan menevän rahan määrän.

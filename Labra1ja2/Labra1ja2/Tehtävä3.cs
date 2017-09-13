@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Tehtävä3
 {
-    class Program
+    class Teht3
     {
-        static void Main(string[] args)
+        static void Tehtävä3(string[] args)
         {
             int luku1;
             int luku2;

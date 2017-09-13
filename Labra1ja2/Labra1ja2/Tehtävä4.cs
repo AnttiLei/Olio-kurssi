@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Tehtävä4
 {
-    class Program
+    class Teht4
     {
-        static void Main(string[] args)
+        static void Tehtävä4(string[] args)
         {
             int age;
             Console.WriteLine("Kerro ikäsi: ");

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Tehtävä_7
 {
-    class Program
+    class Teht7
     {
-        static void Main(string[] args)
+        static void Tehtävä7(string[] args)
         {
             //Tee ohjelma, joka näyttää onko annettu vuosi karkausvuosi. Vuosiluku kysytään käyttäjältä.
             //4:llä jaolliset on, paitsi täydet vuosisadat. Kuitenkin 400:lla jaolliset vuosisadat ovat
