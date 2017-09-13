@@ -8,7 +8,7 @@ namespace Tehtävä3
 {
     class Teht3
     {
-        static void Main(string[] args)
+        static void Tehtävä5(string[] args)
         {
             int luku1;
             int luku2;
