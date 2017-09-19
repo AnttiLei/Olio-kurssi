@@ -18,8 +18,8 @@ namespace Labra3
             //luodaan kiuas olio
             Kiuas kiuas = new Kiuas();
             kiuas.PowerOn = true;
-            kiuas.Temperature = 90;
-            kiuas.Moisture = 50;
+            kiuas.Temperature = 80;
+            kiuas.Moisture = 60;
 
             //tulostetaan juuri luotu kiuas olio
             Console.WriteLine("Kiuas on päällä {0}", kiuas.PowerOn);
