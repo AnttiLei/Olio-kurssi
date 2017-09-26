@@ -10,20 +10,34 @@ namespace Labra4tehtä1
     {
         static void Main(string[] args)
         {
-            Console.Write("Give a number > ");
+            Console.WriteLine("Anna numerosarja > ");
             string line = Console.ReadLine();
             // try to read number from the given line
-            float number;
-            bool result = float.TryParse(line, out number);
-            // number (integer) was given correctly, use it..
+            double number;
+            bool result = double.TryParse(line, out number);
+            //number (integer) was given correctly, use it..
             if (result)
             {
-                Console.WriteLine("Number was " + number);
+                Console.WriteLine("Numero oli " + number);
             }
             else
             {
-                Console.WriteLine("Syöte {0} ei ole luku", Testi.OnkoLuku);
+                Console.WriteLine("Syöte {0} ei ole luku",line);
+                
             }
+            Console.WriteLine("Anna toinen numerosarja > ");
+            string line2 = Console.ReadLine();
+            DateTime date;
+
+            if (DateTime.TryParse(line2, out date))
+            {
+                Console.WriteLine("Syöte on " + line2);
+            }
+            else
+            {
+                Console.WriteLine("Syöte {0} ei ollut päivämäärä.", line2);
+            }
+           
         }
     }
 }
