@@ -25,11 +25,7 @@ namespace Labra4Tehtä4
             Profession = profession;
             Salary = salary;
         }
-        public Staff()
-        {
-
-        }
-
+       
         public override string ToString()
         {
             return "Name: " + FirstName + " " + LastName + " Profession: " + Profession + " Salary: " + Salary;
