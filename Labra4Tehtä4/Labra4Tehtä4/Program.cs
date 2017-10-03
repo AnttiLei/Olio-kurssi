@@ -10,8 +10,12 @@ namespace Labra4Tehtä4
     {
         static void Main(string[] args)
         {
-            Staff person = new Staff("antti", "leinonen", "työntekijä", 1244);
-           Console.WriteLine("Eka tekijä" + person);
+            Staff person = new Staff("antti", "leinonen", "Duunari", 1244);
+           Console.WriteLine("Employee:\n " + person);
+            Staff boss = new Boss("Lantti", "Keinonen", "Pomo", 4421, "Ferrari", 2500);
+            Console.WriteLine("Boss:\n " + boss);
+            Staff person2 = new Staff("Matti", "Menninkäinen", "Työmies", 1444);
+            Console.WriteLine("Employee:\n " + person2);
         }
     }
 }

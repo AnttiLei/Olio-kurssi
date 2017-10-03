@@ -20,7 +20,7 @@ namespace Labra4Tehtä4
         }
         public Staff(string firstName, string lastName, string profession, int salary)
         {
-            FirstName = FirstName;
+            FirstName = firstName;
             LastName = lastName;
             Profession = profession;
             Salary = salary;
@@ -32,7 +32,7 @@ namespace Labra4Tehtä4
 
         public override string ToString()
         {
-            return FirstName + " " + LastName + " " + Profession + " " + Salary;
+            return "Name: " + FirstName + " " + LastName + " Profession: " + Profession + " Salary: " + Salary;
         }
     }
 
