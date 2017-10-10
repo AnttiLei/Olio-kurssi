@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Labra6Tehtä1")]
+[assembly: AssemblyTitle("LAbra6Tehtväv2")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Labra6Tehtä1")]
+[assembly: AssemblyProduct("LAbra6Tehtväv2")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("e19684a9-15ee-4146-9c6e-189cd224e914")]
+[assembly: Guid("413b7794-9b01-4e9a-af9d-b39d5d5f6a57")]
 
 // Version information for an assembly consists of the following four values:
 //
