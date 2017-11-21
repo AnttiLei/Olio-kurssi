@@ -1,0 +1,14 @@
+﻿<Window x:Class="Labra11Teht2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Labra11Teht2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <DataGrid x:Name="dgJoukkue" HorizontalAlignment="Left" Height="258" Margin="142,35,0,0" VerticalAlignment="Top" Width="258"/>
+        <Button x:Name="btnHaePelaajat" Content="Hae pelaajat" HorizontalAlignment="Left" Margin="50,35,0,0" VerticalAlignment="Top" Width="75" Click="btnHaePelaajat_Click"/>
+
+    </Grid>
+</Window>
